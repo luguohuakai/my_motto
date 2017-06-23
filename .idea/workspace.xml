@@ -1,7 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e88ceec-81cf-4691-b5cc-4b7dfb2c60cc" name="Default" comment="" />
+    <list default="true" id="8e88ceec-81cf-4691-b5cc-4b7dfb2c60cc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/web/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/console/controllers/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/web/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/.bowerrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/Vagrantfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/assets/AppAsset.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/codeception.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/config/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/config/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/config/main.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/config/params.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/config/test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/controllers/SiteController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/models/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/runtime/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/tests/_bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/tests/_data/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/tests/_data/login_data.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/tests/_output/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/tests/_support/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/tests/_support/FunctionalTester.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/tests/_support/UnitTester.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/tests/functional.suite.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/tests/functional/LoginCest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/tests/functional/_bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/tests/unit.suite.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/tests/unit/_bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/views/layouts/main.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/views/site/error.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/views/site/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/views/site/login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/web/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/web/assets/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/backend/web/css/site.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/codeception.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/common/codeception.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/common/config/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/common/config/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/common/config/main.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/common/config/params.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/common/config/test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/common/fixtures/UserFixture.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/common/mail/layouts/html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/common/mail/layouts/text.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/common/mail/passwordResetToken-html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/common/mail/passwordResetToken-text.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/common/models/LoginForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/common/models/User.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/common/tests/_bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/common/tests/_data/user.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/common/tests/_output/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/common/tests/_support/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/common/tests/_support/UnitTester.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/common/tests/unit.suite.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/common/tests/unit/models/LoginFormTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/common/widgets/Alert.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/console/config/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/console/config/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/console/config/main.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/console/config/params.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/console/migrations/m130524_201442_init.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/console/models/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/console/runtime/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/dev/backend/config/main-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/dev/backend/config/params-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/dev/backend/config/test-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/dev/backend/web/index-test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/dev/backend/web/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/dev/backend/web/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/dev/common/config/main-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/dev/common/config/params-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/dev/common/config/test-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/dev/console/config/main-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/dev/console/config/params-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/dev/frontend/config/main-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/dev/frontend/config/params-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/dev/frontend/config/test-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/dev/frontend/web/index-test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/dev/frontend/web/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/dev/frontend/web/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/dev/yii" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/dev/yii_test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/dev/yii_test.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/prod/backend/config/main-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/prod/backend/config/params-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/prod/backend/web/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/prod/backend/web/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/prod/common/config/main-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/prod/common/config/params-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/prod/console/config/main-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/prod/console/config/params-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/prod/frontend/config/main-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/prod/frontend/config/params-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/prod/frontend/web/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/prod/frontend/web/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/environments/prod/yii" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/assets/AppAsset.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/codeception.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/config/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/config/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/config/main.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/config/params.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/config/test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/controllers/SiteController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/models/ContactForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/models/PasswordResetRequestForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/models/ResetPasswordForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/models/SignupForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/runtime/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/tests/_bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/tests/_data/login_data.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/tests/_data/user.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/tests/_output/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/tests/_support/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/tests/_support/FunctionalTester.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/tests/_support/UnitTester.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/tests/acceptance.suite.yml.example" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/tests/acceptance/HomeCest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/tests/acceptance/_bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/tests/functional.suite.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/tests/functional/AboutCest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/tests/functional/ContactCest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/tests/functional/HomeCest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/tests/functional/LoginCest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/tests/functional/SignupCest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/tests/functional/_bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/tests/unit.suite.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/tests/unit/_bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/tests/unit/models/ContactFormTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/tests/unit/models/PasswordResetRequestFormTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/tests/unit/models/ResetPasswordFormTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/tests/unit/models/SignupFormTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/views/layouts/main.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/views/site/about.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/views/site/contact.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/views/site/error.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/views/site/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/views/site/login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/views/site/requestPasswordResetToken.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/views/site/resetPassword.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/views/site/signup.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/web/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/web/assets/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/frontend/web/css/site.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/init" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/init.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/requirements.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/vagrant/config/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/vagrant/config/vagrant-local.example.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/vagrant/nginx/app.conf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/vagrant/nginx/log/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/vagrant/provision/always-as-root.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/vagrant/provision/once-as-root.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/vagrant/provision/once-as-vagrant.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_mottos/yii.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,18 +174,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,9 +187,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="397" />
-    <option name="y" value="226" />
-    <option name="width" value="2103" />
+    <option name="y" value="22" />
+    <option name="width" value="2560" />
     <option name="height" value="1339" />
   </component>
   <component name="ProjectView">
@@ -56,21 +207,171 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="my_motto" />
+              <option name="myItemId" value="my_mottos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="my_motto" />
+              <option name="myItemId" value="my_mottos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_mottos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_mottos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_mottos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_mottos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_mottos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_mottos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="environments" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_mottos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_mottos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_mottos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="environments" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_mottos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_mottos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_mottos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="environments" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_mottos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_mottos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_mottos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="environments" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_mottos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_mottos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_mottos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_mottos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_mottos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_mottos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -88,6 +389,69 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -99,32 +463,32 @@
       <option name="presentableId" value="Default" />
       <updated>1498210599683</updated>
       <workItem from="1498210600912" duration="84000" />
+      <workItem from="1498211221154" duration="710000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84000" />
+    <option name="totallyTimeSpent" value="794000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="397" y="226" width="2103" height="1339" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="22" width="2560" height="1339" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2498787" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2065131" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287891" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -141,8 +505,56 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_mottos/backend/config/params.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_mottos/environments/dev/backend/config/main-local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_mottos/backend/config/main-local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_mottos/backend/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
