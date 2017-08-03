@@ -72,7 +72,76 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+//        require '../vendor/autoload.php';
+        date_default_timezone_set('PRC');
+//    use Monolog\Logger;
+//    use Monolog\Handler\StdoutHandler;
+// Create the logger
+//        $logger = new Logger('my_logger');
+// Now add some handlers
+//        $logger->pushHandler(new StdoutHandler());
+
+        $config = \Kafka\ConsumerConfig::getInstance();
+        $config->setMetadataRefreshIntervalMs(10000);
+        $config->setMetadataBrokerList('localhost:9092');
+        $config->setGroupId('test-consumer-group');
+        $config->setBrokerVersion('0.11.0.0');
+        $config->setTopics(array('test'));
+//$config->setOffsetReset('earliest');
+        $consumer = new \Kafka\Consumer();
+//        $consumer->setLogger($logger);
+        $consumer->start(function($topic, $part, $message) {
+            var_dump($message);
+        });
+//        return $this->render('index');
+    }
+    public function actionIndex2()
+    {
+//        require_once __DIR__ . '/../../common/d/See-KafKa/KafKa.php';
+//        $KafKa_Lite = new KafKa_Lite("127.0.0.1,localhost");
+//// 设置一个Topic
+//        $KafKa_Lite->setTopic("test");
+//// 单次写入效率ok  写入1w条15 毫秒
+//        $Producer = $KafKa_Lite->newProducer();
+//// 参数分别是partition,消息内容,消息key(可选)
+//// partition:可以设置为KAFKA_PARTITION_UA会自动分配,比如有6个分区写入时会随机选择Partition
+//        $Producer->setMessage(0, "hello");
+
+//        require '../vendor/autoload.php';
+        date_default_timezone_set('PRC');
+//    use Monolog\Logger;
+//    use Monolog\Handler\StdoutHandler;
+// Create the logger
+//        $logger = new Logger('my_logger');
+// Now add some handlers
+//        $logger->pushHandler(new StdoutHandler());
+
+        $config = \Kafka\ProducerConfig::getInstance();
+        $config->setMetadataRefreshIntervalMs(10000);
+        $config->setMetadataBrokerList('localhost:9092');
+        $config->setBrokerVersion('0.11.0.0');
+        $config->setRequiredAck(1);
+        $config->setIsAsyn(false);
+        $config->setProduceInterval(500);
+        $producer = new \Kafka\Producer(function() {
+            return array(
+                array(
+                    'topic' => 'test',
+                    'value' => 'test....message.',
+                    'key' => '',
+                ),
+            );
+        });
+//        $producer->setLogger($logger);
+        $producer->success(function($result) {
+            echo '<pre>';
+            print_r($result);
+//            var_dump($result);
+        });
+        $producer->error(function($errorCode, $context) {
+            var_dump($errorCode);
+        });
+        $producer->send(true);
     }
 
     /**
