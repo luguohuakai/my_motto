@@ -19,7 +19,10 @@
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0",
         "workerman/workerman": "^3.4",
-        "nmred/kafka-php": "v0.2.0.6"
+        "nmred/kafka-php": "0.2.*",
+        "monolog/monolog": "^1.23",
+        "logentries/logentries-monolog-handler": "^2.1",
+        "kmelia/monolog-stdout-handler": "^1.2"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
@@ -27,7 +30,8 @@
         "yiisoft/yii2-faker": "~2.0.0",
 
         "codeception/base": "^2.2.3",
-        "codeception/verify": "~0.3.1"
+        "codeception/verify": "~0.3.1",
+        "kwn/php-rdkafka-stubs": "^1.0"
     },
     "config": {
         "process-timeout": 1800,
