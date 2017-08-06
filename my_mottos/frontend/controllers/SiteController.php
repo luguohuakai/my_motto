@@ -1,6 +1,10 @@
 <?php
 namespace frontend\controllers;
 
+use Kafka\Consumer;
+use Kafka\ConsumerConfig;
+use Kafka\Producer;
+use Kafka\ProducerConfig;
 use Yii;
 use yii\base\InvalidParamException;
 use yii\web\BadRequestHttpException;
@@ -72,28 +76,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-//        require '../vendor/autoload.php';
-        date_default_timezone_set('PRC');
-//    use Monolog\Logger;
-//    use Monolog\Handler\StdoutHandler;
-// Create the logger
-//        $logger = new Logger('my_logger');
-// Now add some handlers
-//        $logger->pushHandler(new StdoutHandler());
-
-        $config = \Kafka\ConsumerConfig::getInstance();
-        $config->setMetadataRefreshIntervalMs(10000);
-        $config->setMetadataBrokerList('localhost:9092');
-        $config->setGroupId('test-consumer-group');
-        $config->setBrokerVersion('0.11.0.0');
-        $config->setTopics(array('test'));
-//$config->setOffsetReset('earliest');
-        $consumer = new \Kafka\Consumer();
-//        $consumer->setLogger($logger);
-        $consumer->start(function($topic, $part, $message) {
-            var_dump($message);
-        });
-//        return $this->render('index');
+        return $this->render('');
     }
     public function actionIndex2()
     {
@@ -116,18 +99,18 @@ class SiteController extends Controller
 // Now add some handlers
 //        $logger->pushHandler(new StdoutHandler());
 
-        $config = \Kafka\ProducerConfig::getInstance();
+        $config = ProducerConfig::getInstance();
         $config->setMetadataRefreshIntervalMs(10000);
         $config->setMetadataBrokerList('localhost:9092');
         $config->setBrokerVersion('0.11.0.0');
         $config->setRequiredAck(1);
         $config->setIsAsyn(false);
         $config->setProduceInterval(500);
-        $producer = new \Kafka\Producer(function() {
+        $producer = new Producer(function() {
             return array(
                 array(
                     'topic' => 'test',
-                    'value' => 'test....message.',
+                    'value' => 'test2....' . date('Y-m-d H:i:s'),
                     'key' => '',
                 ),
             );
@@ -142,6 +125,27 @@ class SiteController extends Controller
             var_dump($errorCode);
         });
         $producer->send(true);
+    }
+    public function actionIndex3()
+    {
+        date_default_timezone_set('PRC');
+// Create the logger
+//        $logger = new Logger('my_logger');
+// Now add some handlers
+//        $logger->pushHandler(new StdoutHandler());
+
+        $config = ConsumerConfig::getInstance();
+        $config->setMetadataRefreshIntervalMs(10000);
+        $config->setMetadataBrokerList('localhost:9092');
+        $config->setGroupId('test-consumer-group');
+        $config->setBrokerVersion('0.11.0.0');
+        $config->setTopics(array('test'));
+        $config->setOffsetReset('earliest');
+        $consumer = new Consumer();
+//        $consumer->setLogger($logger);
+        $consumer->start(function($topic, $part, $message) {
+            var_dump($message);
+        });
     }
 
     /**
