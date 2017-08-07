@@ -2,14 +2,12 @@
 
 namespace console\models;
 
-use yii\db\ActiveQuery;
-
 /**
- * This is the ActiveQuery class for [[Kafka]].
+ * This is the ActiveQuery class for [[SysConfig]].
  *
- * @see Kafka
+ * @see SysConfig
  */
-class KafkaQuery extends ActiveQuery
+class SysConfigQuery extends \yii\db\ActiveQuery
 {
     /*public function active()
     {
@@ -18,7 +16,7 @@ class KafkaQuery extends ActiveQuery
 
     /**
      * @inheritdoc
-     * @return Kafka[]|array
+     * @return SysConfig[]|array
      */
     public function all($db = null)
     {
@@ -27,7 +25,7 @@ class KafkaQuery extends ActiveQuery
 
     /**
      * @inheritdoc
-     * @return Kafka|array|null
+     * @return SysConfig|array|null
      */
     public function one($db = null)
     {

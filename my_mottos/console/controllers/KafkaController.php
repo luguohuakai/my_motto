@@ -2,6 +2,7 @@
 namespace console\controllers;
 
 use console\models\Kafka;
+use console\models\SysConfig;
 use Kafka\Consumer;
 use Kafka\ConsumerConfig;
 use Kafka\Producer;
@@ -14,6 +15,7 @@ use yii\base\Controller;
  */
 class KafkaController extends Controller
 {
+    static $i = 0;
     public function actionIndex()
     {
         echo 'gooood';
@@ -78,26 +80,54 @@ class KafkaController extends Controller
         $config->setMetadataBrokerList('localhost:9092');
         $config->setGroupId('test-consumer-group');
         $config->setBrokerVersion('0.11.0.0');
-        $config->setTopics(array('test'));
+        $config->setTopics(array('maoge'));
         $config->setOffsetReset('earliest');
         $consumer = new Consumer();
 //        $consumer->setLogger($logger);
         $consumer->start(function($topic, $part, $message) {
-            var_dump(Kafka::findOne(['id' => 1]));
-            var_dump($message);
-            $kafka = new Kafka();
-            $kafka->topic = $topic;
-            $kafka->part = $part;
-            $kafka->message = json_encode($message);
-            $kafka->offset = $message['offset'];
-            $kafka->size = $message['size'];
-            $kafka->crc = $message['message']['crc'];
-            $kafka->magic = $message['message']['magic'];
-            $kafka->attr = $message['message']['attr'];
-            $kafka->timestamp = $message['message']['timestamp'];
-            $kafka->key = $message['message']['key'];
-            $kafka->value = $message['message']['value'];
-            $kafka->save();
+            print_r($topic);
+            print_r($part);
+            print_r($message);
+            echo static::$i++;
+//            $kafka = new Kafka();
+//            $kafka->topic = $topic;
+//            $kafka->part = $part;
+//            $kafka->message = json_encode($message);
+//            $kafka->offset = $message['offset'];
+//            $kafka->size = $message['size'];
+//            $kafka->crc = $message['message']['crc'];
+//            $kafka->magic = $message['message']['magic'];
+//            $kafka->attr = $message['message']['attr'];
+//            $kafka->timestamp = $message['message']['timestamp'];
+//            $kafka->key = $message['message']['key'];
+//            $kafka->value = $message['message']['value'];
+//            $kafka->save();
+        });
+    }
+
+    // 读取 t_系统编号 队列
+    //  入职 新增 users
+    //  返回 t_sysback 队列
+    //  离职 删除 users
+    //  有这个用户且删除成功
+    //  返回 t_sysback 队列
+    //  无这个用户 返回 t_sysback 队列
+    public function actionUsersInOrOut(){
+        $config = ConsumerConfig::getInstance();
+        $config->setMetadataRefreshIntervalMs(10000);
+        $config->setMetadataBrokerList('10.8.199.128:9092');
+
+        $config->setGroupId('test-consumer-group');
+
+        $config->setBrokerVersion('0.11.0.0');
+
+        $config->setTopics(array('t_系统编号'));
+
+        $config->setOffsetReset('earliest');
+        $consumer = new Consumer();
+
+        $consumer->start(function($topic, $part, $message) {
+
         });
     }
 }
